@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<link ref="stylesheet" type="text/css" href="css/stylesheet.css">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ausrtalia Horizon Adventures | 澳洲地平线越野探险 </title>
+<link href="css\stylesheet.css" rel="stylesheet" type="text/css">
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+<script>var __adobewebfontsappname__="dreamweaver"</script>
+<script src="http://use.edgefonts.net/source-sans-pro:n2:default.js" type="text/javascript"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!-- Main Container -->
+<div class="container"> 
+  <!-- Navigation -->
+  <header> <a href="">
+    <h4 class="logo">HORIZON ADVENTURE</h4>
+    </a>
+    <nav>
+      <ul>
+        <li><a href="#hero">HOME</a></li>
+        <li><a href="#vehicle">VEHICLES</a></li>
+        <li><a href="#route">ROUTE</a></li>
+        <li><a href="#gallery">GALLERY</a></li>
+        <li><a href="#contact">CONTACT</a></li>  
+      </ul>
+    </nav>
+  </header>
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <h2 class="hero_header">FINDING <span class="light">HORIZONS</span></h2>
+    <p class="tagline">If targeting horizons, the only thing for world is the back.</p>
+  </section>
+  <!-- About Section -->
+  <section class="about" id="about">
+    <h2 class="hidden">About</h2>
+    <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+    <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+    <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+  </section>
+  <!-- Stats Gallery Section -->
+  <div class="gallery">
+    <div class="thumbnail" id="route">
+      <h1 class="stats"><a href = "#Gallery">SIMPSON</a></h1>
+      <h4>SIMPSON DESERT CROSS</h4>
+      <p>15 Days Cross Trip Departure from Melbourne</p>
+    </div>
+    <div class="thumbnail" id="route">
+      <h1 class="stats"><a href = "#Gallery">WEST COAST</a></h1>
+      <h4>TRIP ALONG THE WEST COAST</h4>
+      <p>12 Days Trip from Perth to Broome</p>
+    </div>
+    <div class="thumbnail" id="route">
+      <h1 class="stats"><a href = "#Gallery">EAST COAST</a></h1>
+      <h4>TRIP ALONG EAST COAST</h4>
+      <p>10 Days Trip from Sydney to Melbourne</p>
+    </div>
+    <div class="thumbnail" id="route">
+      <h1 class="stats"><a href = "#Gallery">DARWIN</a></h1>
+      <h4>SOUTH TO NORTH CROSS</h4>
+      <p>16 Days Cross Trip from Melbourne to Darwin</p>
+    </div>
+  </div>
+  <!-- Parallax Section -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <div class="slideshow-container" id="gallery">
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="images/slide01.jpg" style="width:100%">
+      <div class="text">Uluru</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="images/slide02.jpg" style="width:100%">
+      <div class="text">Melbourne City</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="images/slide03.jpg" style="width:100%">
+      <div class="text">12 Apostles</div>
+    </div>
+  </div>
+
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div>
+
+  <script>
+  var slideIndex = 0;
+  showSlides();
+
+  function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+         slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex> slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 4000); // Change image every 5 seconds
+  }
+  </script>
+
+   <section class="banner">
+    <h2 class="parallax">澳洲地平线越野</h2>
+    <p class="parallax_description">选择一路休闲 或是穿越最艰苦的路段 再或是翱翔天际 独享的旅行路线 在澳洲找到最爱的旅行方式</p>
+  </section>
+  <!-- More Info Section -->
+  <footer>
+    <article class="footer_column" id="vehicle">
+      <h3>VEHICLE 01</h3>
+      <img src="images/vehicle01.png" alt="" width="400" height="400" class="cards"/>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla </p>
+    </article>
+    <article class="footer_column" id="vehicle">
+      <h3>VEHICLE 02</h3>
+      <img src="images/vehicle02.png" alt="" width="400" height="400" class="cards"/>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla </p>
+    </article>
+  </footer>
+  <!-- Footer Section -->
+  <div class="footer_banner" id="contact">
+    <h2 class="hidden">Footer Banner Section </h2>
+    <p class="footer_header">FOR THE LATEST NEWS &amp; UPDATES</p>
+    <div class="button">subscribe</div>
+    <div class="copyright">&copy;2017 - <strong>Australia Horizon Adventure</strong></div>
+  </div>
+  <!-- Copyrights Section -->
+</div>
+<!-- Main Container Ends -->
+</body>
+</html>
