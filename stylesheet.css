@@ -18,7 +18,16 @@ body {
 	height: 1000px;
 	background-color: #FFFFFF;
 }
+/* Logo picture */
+.logo_picure{
+	margin-left: 20px;
+	margin-top:20px;
+}
 /* Navigation */
+.top{
+	padding-left: 20px;
+	padding-top: 15px;
+}
 header {
 	width: 100%;
 	height: 5%;
@@ -27,7 +36,6 @@ header {
 .logo {
 	color: #CD6C00;
 	font-weight: bold;
-	text-align: undefined;
 	width: 40%;
 	float: left;
 	margin-top: 15px;
@@ -36,7 +44,7 @@ header {
 }
 nav {
 	float: right;
-	width: 50%;
+	width: 30%;
 	text-align: right;
 	margin-right: 25px;
 }
@@ -65,24 +73,25 @@ ul li:hover a {
 .hero_header {
 	color: #CD6C00;
 	text-align: center;
-	margin-top: 90px;
+	margin-top: 10px;
 	margin-right: 50px;
-	margin-bottom: 20px;
+	margin-bottom: 5px;
 	margin-left: 50px;
 	letter-spacing: 4px;
 }
 /* Hero Section */
-
 .hero {
+	text-align: center;
 	font-size: 30px;
 	background-color: #B3B3B3;
 	background-image: url(../images/24acf3563c7b2d02a3979be3a14859cb.jpeg);
 	background-attachment: fixed;
 	width:100%;
 	height:460px;
-	padding-top: 50px;
+	padding-top: 30px;
 	padding-bottom: 25px;
 	padding-left: 0px;
+
 }
 .light {
 	font-weight: bold;
@@ -91,11 +100,11 @@ ul li:hover a {
 .tagline {
 	text-align: center;
 	color: #707070;
-	margin-top: 4px;
+	margin-top: 0px;
 	font-size: 16px;
 	font-weight: lighter;
 	font-style: italic;
-	letter-spacing: 1px;
+	letter-spacing: 4px;
 }
 /* About Section */
 .text_column {
@@ -217,12 +226,12 @@ ul li:hover a {
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
+  from {opacity: 0.5}
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: 0.5}
   to {opacity: 1}
 }
 
@@ -232,6 +241,7 @@ ul li:hover a {
 }
 
 .banner {
+	text-align: center;
 	background-color: #2D9AB7;
 	background-image: url(../images/banner_4x4.jpg);
 	background-attachment: fixed;
@@ -243,19 +253,19 @@ ul li:hover a {
 }
 .parallax {
 	color: #FFFFFF;
-	text-align: right;
+	font-size: 30px;
+	text-align: left;
 	font-style: italic;
-	padding-right: 100px;
+	padding-left: 100px;
 	padding-top: 100px;
 	letter-spacing: 2px;
 	margin-top: -5px;
 }
-.parallax_description {
-	float:right;
-	padding-right: 100px;
+.propoganda {
 	color: #FFFFFF;
-	text-align: right;
-	width: 20%;
+	float: left;
+	text-align: left;
+	padding-left: 100px;
 	font-weight: lighter;
 	line-height: 28px;
 }
@@ -345,9 +355,10 @@ footer .footer_column p {
 	border-top-width: 2px;
 	}
 .footer_banner {
-	background-image: url(../images/9786964b-5e57-4440-b710-a8bd132e43e6.jpg);
+	background-image: url(../images/bottom.jpg);
 	background-attachment: fixed;
 	background-size:100%;
+	text-align: center;
 	height: 0 auto;
 	margin-top: -5px;
 	padding-top: 60px;
@@ -359,8 +370,11 @@ footer .footer_column p {
 footer {
 	display: inline-block;
 }
-.hidden {
-	display: none;
+.customize {
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 40px;
+	letter-spacing: 3px;
 }
 
 /* Mobile */
